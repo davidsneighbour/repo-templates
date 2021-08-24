@@ -4,7 +4,6 @@
 
 | Element | Description |
 | :--- | :--- |
-| [blocks](https://github.com/dnb-org/blocks) | Blocks are reusable page elements like headers, footers, content display etc.|
 | [components](https://github.com/dnb-org/components) | Components are preconfigured features like automatic search index creation, sitemap and robots.txt creation, etc. |
 | [configurations](https://github.com/dnb-org/configurations) | A collection of configuration packages used in dnb-org |
 | [debugprint](https://github.com/dnb-org/debugprint) | Debugging for your Hugo layout files. |
