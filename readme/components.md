@@ -1,4 +1,4 @@
-### Other components in DNB Hugo components
+### Other components
 
 | Component | Description |
 | :--- | :--- |
