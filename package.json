@@ -14,5 +14,17 @@
   },
   "scripts": {
     "build:cards": "assets/images/auto-headers/build.sh"
+  },
+  "eslintConfig": {
+    "extends": "@dnb-org/eslint-config"
+  },
+  "remarkConfig": {
+    "plugins": [
+      "@dnb-org/remark-preset-lint",
+      [
+        "remark-lint-write-good",
+        false
+      ]
+    ]
   }
 }
