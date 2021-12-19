@@ -43,6 +43,7 @@ COMPONENTS=(\
   "SECURITY" \
   "SITEMAP" \
   "SOCIAL" \
+  "TEMPLATES" \
 )
 
 # go through elements
