@@ -15,6 +15,7 @@ A collection of text blocks for use in DNB-Hugo. You probably won't have any use
 | [dnb-hugo-functions](https://github.com/dnb-org/dnb-hugo-functions)           |                                                            |
 | [dnb-hugo-giscus](https://github.com/dnb-org/dnb-hugo-giscus)                 | The Giscus comment system layout for GoHugo.               |
 | [dnb-hugo-head](https://github.com/dnb-org/dnb-hugo-head)                     |                                                            |
+| [dnb-hugo-hooks](https://github.com/dnb-org/dnb-hugo-hooks)                   | GoHugo's missing hook system for template extensions.      |
 | [dnb-hugo-internals](https://github.com/dnb-org/dnb-hugo-internals)           | Better internal templates for GoHugo                       |
 | [dnb-hugo-netlification](https://github.com/dnb-org/dnb-hugo-netlification)   | a collection of tools that optimize your site on Netlify   |
 | [dnb-hugo-opensearch](https://github.com/dnb-org/dnb-hugo-opensearch)         | configuration for Open Search                              |
@@ -29,5 +30,4 @@ A collection of text blocks for use in DNB-Hugo. You probably won't have any use
 | [dnb-hugo-social](https://github.com/dnb-org/dnb-hugo-social)                 |                                                            |
 
 <!--lint disable no-missing-blank-lines -->
-
 <!--- COMPONENTS END --->
