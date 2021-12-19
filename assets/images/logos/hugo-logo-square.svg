@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   fill-rule="evenodd"
+   stroke-width="27"
+   aria-label="Logo"
+   viewBox="0 0 400.00001 400"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="hugo-logo-square.svg"
+   width="400"
+   height="400"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     showgrid="false"
+     inkscape:zoom="1.7267247"
+     inkscape:cx="230.49418"
+     inkscape:cy="202.69589"
+     inkscape:window-width="1868"
+     inkscape:window-height="1016"
+     inkscape:window-x="52"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer4"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     width="400px" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 1"
+     transform="translate(-81.187142,-20.005827)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Layer 2"
+     style="display:inline"
+     transform="translate(-81.187142,-20.005827)">
+    <g
+       id="g4247"
+       transform="matrix(1.0336865,0,0,1.0336865,89.655771,25.168236)">
+      <path
+         fill="#ff4088"
+         stroke="#c9177e"
+         d="m 208.00713,15.406589 114.41,66.54 a 44,44 0 0 1 21.88,38.040011 v 136.43 a 48,48 0 0 1 -24.45,41.82 l -113.55,63.94 a 49,49 0 0 1 -48.48,-0.23 l -104.569987,-60.19 a 53,53 0 0 1 -26.56,-45.93 v -129.47 a 55,55 0 0 1 26.1,-46.800011 l 102.799987,-63.46 a 51,51 0 0 1 52.42,-0.69 z"
+         id="path8"
+         style="display:inline" />
+      <path
+         style="display:inline;fill:#ffffff"
+         d="M 106.10713,291.1966 V 83.976589 h 43.35 V 159.4566 h 71.92 V 83.976589 h 43.48 V 291.1966 h -43.48 v -90.61 h -71.92 v 90.61 z"
+         id="path3497" />
+    </g>
+  </g>
+</svg>
