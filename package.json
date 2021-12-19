@@ -28,6 +28,8 @@
     "build:cards": "assets/images/auto-headers/build.sh"
   },
   "dependencies": {
-    "@dnb-org/tools": "^3.4.3"
+    "@dnb-org/tools": "^3.4.3",
+    "mem": ">=4.0.0",
+    "yargs-parser": ">=13.1.2"
   }
 }
