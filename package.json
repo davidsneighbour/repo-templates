@@ -6,18 +6,11 @@
   "bugs": {
     "url": "https://github.com/dnb-org/templates/issues"
   },
-  "homepage": "https://github.com/dnb-org/templates#readme",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dnb-org/templates.git"
-  },
-  "scripts": {
-    "build:cards": "assets/images/auto-headers/build.sh"
-  },
   "eslintConfig": {
     "extends": "@dnb-org/eslint-config"
   },
+  "homepage": "https://github.com/dnb-org/templates#readme",
+  "license": "MIT",
   "remarkConfig": {
     "plugins": [
       "@dnb-org/remark-preset-lint",
@@ -26,5 +19,12 @@
         false
       ]
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnb-org/templates.git"
+  },
+  "scripts": {
+    "build:cards": "assets/images/auto-headers/build.sh"
   }
 }
