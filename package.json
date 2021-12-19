@@ -1,0 +1,18 @@
+{
+  "name": "@dnb-org/templates",
+  "version": "1.0.0",
+  "description": "A collection of text blocks for use in DNB-Hugo. You probably won't have any use of this.",
+  "scripts": {
+    "build:cardds": "./assets/imnages/auto-headers/build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnb-org/templates.git"
+  },
+  "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dnb-org/templates/issues"
+  },
+  "homepage": "https://github.com/dnb-org/templates#readme"
+}
