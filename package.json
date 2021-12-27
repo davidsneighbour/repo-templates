@@ -25,11 +25,13 @@
     "url": "git+https://github.com/dnb-org/templates.git"
   },
   "scripts": {
-    "build:cards": "assets/images/auto-headers/build.sh"
+    "build": "run-p build:*",
+    "build:cards": "./bin/build-auto-cards.sh",
+    "build:readme": "./bin/build-docs.sh"
   },
   "dependencies": {
-    "@dnb-org/tools": "^3.4.3",
-    "mem": ">=4.0.0",
-    "yargs-parser": ">=13.1.2"
+    "@dnb-org/tools": "^3.4.6",
+    "mem": ">=9.0.1",
+    "yargs-parser": ">=21.0.0"
   }
 }
