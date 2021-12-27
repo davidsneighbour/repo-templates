@@ -1,5 +1,8 @@
+<!--- CARDS BEGIN --->
+
 ![DNB-Hugo/TEMPLATES](.github/github-card-dark.png#gh-dark-mode-only)
 ![DNB-Hugo/TEMPLATES](.github/github-card-light.png#gh-light-mode-only)
+<!--- CARDS END --->
 
 A collection of text blocks for use in DNB-Hugo. You probably won't have any use of this.
 

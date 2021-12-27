@@ -6,6 +6,11 @@
   "bugs": {
     "url": "https://github.com/dnb-org/templates/issues"
   },
+  "dependencies": {
+    "@dnb-org/tools": "^3.4.6",
+    "mem": ">=9.0.1",
+    "yargs-parser": ">=21.0.0"
+  },
   "eslintConfig": {
     "extends": "@dnb-org/eslint-config"
   },
@@ -28,10 +33,5 @@
     "build": "run-p build:*",
     "build:cards": "./bin/build-auto-cards.sh",
     "build:readme": "./bin/build-docs.sh"
-  },
-  "dependencies": {
-    "@dnb-org/tools": "^3.4.6",
-    "mem": ">=9.0.1",
-    "yargs-parser": ">=21.0.0"
   }
 }

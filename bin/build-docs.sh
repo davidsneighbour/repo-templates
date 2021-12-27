@@ -28,3 +28,8 @@ node ./node_modules/replace-between/bin/replace-between.js \
   --source "${TEMPLATEPATH}"/readme/components.md \
   --target README.md \
   --token COMPONENTS
+
+node ./node_modules/replace-between/bin/replace-between.js \
+  --source "${TEMPLATEPATH}"/readme/cards.md \
+  --target README.md \
+  --token CARDS
