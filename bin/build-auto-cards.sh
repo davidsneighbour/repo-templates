@@ -18,7 +18,6 @@ for TOOL in "${REQUIRED_TOOLS[@]}"; do
 done
 
 # file location
-SCRIPTPATH="$( cd "$(dirname "$0")" >/dev/null 2>&1 || exit ; pwd -P )"
 IMAGEPATH="./assets/images/auto-headers"
 
 # list of elements to create
@@ -27,7 +26,9 @@ COMPONENTS=(\
   "asylum" \
   "auditor" \
   "debug" \
+  "dev server sample" \
   "errors" \
+  "exchangerates" \
   "feeds" \
   "functions" \
   "giscus" \
@@ -38,12 +39,14 @@ COMPONENTS=(\
   "netlification" \
   "opensearch" \
   "pictures" \
+  "publisher" \
   "pwa" \
   "renderhooks" \
   "robots" \
   "schema" \
   "search algolia" \
   "security" \
+  "shortcodes" \
   "sitemap" \
   "social" \
   "templates" \
