@@ -1,8 +1,11 @@
-<!--- CARDS BEGIN --->
+<!--- CARD BEGIN --->
 
-![DNB-Hugo/TEMPLATES](.github/github-card-dark.png#gh-dark-mode-only)
-![DNB-Hugo/TEMPLATES](.github/github-card-light.png#gh-light-mode-only)
-<!--- CARDS END --->
+![DNB-Hugo/HEAD](.github/github-card-dark.png#gh-dark-mode-only)
+![DNB-Hugo/HEAD](.github/github-card-light.png#gh-light-mode-only)
+
+<!--- CARD END --->
+
+# DNB GoHugo Component / Templates
 
 A collection of text blocks for use in DNB-Hugo. You probably won't have any use of this.
 
