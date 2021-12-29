@@ -25,6 +25,7 @@ COMPONENTS=(\
   "assets unsplash" \
   "asylum" \
   "auditor" \
+  "components" \
   "debug" \
   "dev server sample" \
   "errors" \
