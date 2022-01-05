@@ -12,7 +12,7 @@ Then add this module to your required modules in config.toml.
 [module]
 
 [[module.imports]]
-path = " $$MODULENAME$$"
+path = "##MODULENAME##"
 
 ```
 
@@ -22,7 +22,7 @@ The next time you run `hugo` it will download the latest version of the module.
 
 ```shell
 # update this module
-hugo mod get -u $$REPONAME$$
+hugo mod get -u ##MODULENAME##
 # update all modules
-hugo mod get -u #
+hugo mod get -u ./...
 ```
