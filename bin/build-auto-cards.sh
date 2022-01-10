@@ -36,6 +36,7 @@ COMPONENTS=(\
   "head" \
   "hooks" \
   "humans" \
+  "icons" \
   "internals" \
   "netlification" \
   "opensearch" \
@@ -51,6 +52,8 @@ COMPONENTS=(\
   "sitemap" \
   "social" \
   "templates" \
+  "testcontent" \
+  "workflows" \
   "youtube" \
 )
 
