@@ -5,7 +5,7 @@
 | :--- | :--- |
 | [dnb-hugo-auditor](https://github.com/dnb-org/dnb-hugo-auditor) | |
 | [dnb-hugo-debug](https://github.com/dnb-org/dnb-hugo-debug) :mage_man: | |
-| [dnb-hugo-errors](https://github.com/dnb-org/dnb-hugo-errors) | |
+| [dnb-hugo-errors](https://github.com/dnb-org/dnb-hugo-errors) | A Hugo module that adds more versatile error pages to a site. |
 | [dnb-hugo-feeds](https://github.com/dnb-org/dnb-hugo-feeds) | Implements various configurable feed formats. |
 | [dnb-hugo-functions](https://github.com/dnb-org/dnb-hugo-functions) | |
 | [dnb-hugo-giscus](https://github.com/dnb-org/dnb-hugo-giscus) | The Giscus comment system layout for GoHugo. |
@@ -22,14 +22,10 @@
 | [dnb-hugo-robots](https://github.com/dnb-org/dnb-hugo-robots) | Add a customizable robots.txt to your website. |
 | [dnb-hugo-schema](https://github.com/dnb-org/dnb-hugo-schema) | |
 | [dnb-hugo-search-algolia](https://github.com/dnb-org/dnb-hugo-search-algolia) | |
-| [dnb-hugo-security](https://github.com/dnb-org/dnb-hugo-security) | |
+| [dnb-hugo-security](https://github.com/dnb-org/dnb-hugo-security) | Add a security.txt to your site with information about your preferred procedures to notify the developer team about security issues. |
 | [dnb-hugo-sitemap](https://github.com/dnb-org/dnb-hugo-sitemap) | |
 | [dnb-hugo-social](https://github.com/dnb-org/dnb-hugo-social) | |
 | [dnb-hugo-workflows](https://github.com/dnb-org/dnb-hugo-workflows) | A collection of Github Actions/Workflows to optimise your work with GoHugo. |
 | [dnb-hugo-youtube](https://github.com/dnb-org/dnb-hugo-youtube) | A shortcode and partial for lite youtube embeds. |
-
-
-
-
 
 <!--lint disable no-missing-blank-lines -->
