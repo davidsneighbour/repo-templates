@@ -7,7 +7,7 @@
     "url": "https://github.com/dnb-org/templates/issues"
   },
   "dependencies": {
-    "@dnb-org/tools": "^3.4.6",
+    "@dnb-org/tools": "^3.5.10",
     "mem": ">=9.0.1",
     "yargs-parser": ">=21.0.0"
   },
