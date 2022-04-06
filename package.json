@@ -9,7 +9,7 @@
   "dependencies": {
     "@dnb-org/tools": "^3.4.6",
     "mem": ">=9.0.1",
-    "yargs-parser": ">=21.0.0"
+    "yargs-parser": ">=21.0.1"
   },
   "eslintConfig": {
     "extends": "@dnb-org/eslint-config"
