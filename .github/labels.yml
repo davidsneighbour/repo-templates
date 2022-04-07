@@ -1,0 +1,37 @@
+gh_labels:
+  "type:bug":
+    description: Bugfixes in codebase when something is not working.
+    colour: "B60205"
+  "type:enhancement":
+    description: New enhancements and features.
+    colour: "1D76DB"
+  "type:documentation":
+    description: Improvements or additions to docs.
+    colour: "FBCA04"
+  "type:refactor":
+    description: Code refactoring.
+    colour: "0E8A16"
+  "type:data":
+    description: Issues pertaining to data or data preparations.
+    colour: "D93F0B"
+  "type:tests":
+    description: Issues related to tests.
+    colour: "006B75"
+  "state:question":
+    description: Further information requested.
+    colour: "FEF2C0"
+  "state:unconfirmed":
+    description: This issue needs to be reproduced.
+    colour: "F9D0C4"
+  "state:confirmed":
+    description: This issue is confirmed.
+    colour: "C2E0C6"
+  "state:duplicate":
+    description: This is a duplicate of another issue.
+    colour: "F9D0C4"
+  "state:invalid":
+    description: This is not an issue.
+    colour: "C5DEF5"
+  "state:wontfix":
+    description: This will not be fixed.
+    colour: "E99695"
