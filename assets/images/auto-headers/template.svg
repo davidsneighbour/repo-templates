@@ -225,7 +225,7 @@
           </cc:Agent>
         </dc:publisher>
         <cc:license
-           rdf:resource="https://github.com/dnb-org/.github/blob/main/LICENSE.md" />
+           rdf:resource="https://github.com/davidsneighbour/.github/blob/main/LICENSE.md" />
       </cc:Work>
     </rdf:RDF>
   </metadata>

@@ -1,12 +1,13 @@
 {
-  "name": "@davidsneighbour/hugo-templates",
-  "description": "A collection of text blocks for use in David's Neighbour Hugo. You probably won't have any use of this.",
+  "name": "@davidsneighbour/templates",
+  "description": "A collection of text blocks for use in DNB-Hugo. You probably won't have any use of this.",
   "version": "1.0.0",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": {
-    "url": "https://github.com/davidsneighbour/hugo-templates/issues"
+    "url": "https://github.com/davidsneighbour/templates/issues"
   },
   "dependencies": {
+    "@davidsneighbour/tools": "^3.4.6",
     "mem": ">=9.0.1",
     "yargs-parser": ">=21.0.0"
   },

@@ -1,7 +1,8 @@
+github.com/davidsneighbour/garuda /home/patrick/Projects/davidsneighbour/garuda
 github.com/davidsneighbour/hugo-assets-unsplash /home/patrick/Projects/davidsneighbour/hugo-assets-unsplash
 github.com/davidsneighbour/hugo-asylum /home/patrick/Projects/davidsneighbour/hugo-asylum
 github.com/davidsneighbour/hugo-auditor /home/patrick/Projects/davidsneighbour/hugo-auditor
-github.com/davidsneighbour/hugo-debug /home/patrick/Projects/dnb-org/debug
+github.com/davidsneighbour/hugo-debug /home/patrick/Projects/davidsneighbour/debug
 github.com/davidsneighbour/hugo-dev-server-sample /home/patrick/Projects/davidsneighbour/hugo-dev-server-sample
 github.com/davidsneighbour/hugo-errors /home/patrick/Projects/davidsneighbour/hugo-errors
 github.com/davidsneighbour/hugo-exchangerates /home/patrick/Projects/davidsneighbour/hugo-exchangerates
@@ -26,9 +27,9 @@ github.com/davidsneighbour/hugo-shortcodes /home/patrick/Projects/davidsneighbou
 github.com/davidsneighbour/hugo-sitemap /home/patrick/Projects/davidsneighbour/hugo-sitemap
 github.com/davidsneighbour/hugo-social /home/patrick/Projects/davidsneighbour/hugo-social
 github.com/davidsneighbour/hugo-youtube /home/patrick/Projects/davidsneighbour/hugo-youtube
-github.com/dnb-org/blocks/bootstrap /home/patrick/Projects/dnb-org/blocks/bootstrap
-github.com/dnb-org/blocks/bootstrap5 /home/patrick/Projects/dnb-org/blocks/bootstrap5
-github.com/dnb-org/libraries/bootstrap5 /home/patrick/Projects/dnb-org/libraries/bootstrap5
-github.com/dnb-org/libraries/bootstrap-icons /home/patrick/Projects/dnb-org/libraries/bootstrap-icons
-github.com/dnb-org/libraries/dayjs /home/patrick/Projects/dnb-org/libraries/dayjs
-github.com/dnb-org/testcontent/aesops-fables /home/patrick/Projects/dnb-org/testcontent/aesops-fables
+github.com/davidsneighbour/blocks/bootstrap /home/patrick/Projects/davidsneighbour/blocks/bootstrap
+github.com/davidsneighbour/blocks/bootstrap5 /home/patrick/Projects/davidsneighbour/blocks/bootstrap5
+github.com/davidsneighbour/libraries/bootstrap5 /home/patrick/Projects/davidsneighbour/libraries/bootstrap5
+github.com/davidsneighbour/libraries/bootstrap-icons /home/patrick/Projects/davidsneighbour/libraries/bootstrap-icons
+github.com/davidsneighbour/libraries/dayjs /home/patrick/Projects/davidsneighbour/libraries/dayjs
+github.com/davidsneighbour/testcontent/aesops-fables /home/patrick/Projects/davidsneighbour/testcontent/aesops-fables
