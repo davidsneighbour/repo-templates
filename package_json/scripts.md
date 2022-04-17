@@ -26,10 +26,10 @@
 
 ```json5
 "scripts": {
-  "lint:textlint": "textlint --config @dnb-org/textlint-config .",
-  "lint:textlint:fix": "textlint --config @dnb-org/textlint-config --fix .",
-  "lint:textlint2": "textlint --config @dnb-org/textlint-config",
-  "lint:textlint2:fix": "textlint --config @dnb-org/textlint-config --fix",
+  "lint:textlint": "textlint --config @davidsneighbour/textlint-config .",
+  "lint:textlint:fix": "textlint --config @davidsneighbour/textlint-config --fix .",
+  "lint:textlint2": "textlint --config @davidsneighbour/textlint-config",
+  "lint:textlint2:fix": "textlint --config @davidsneighbour/textlint-config --fix",
 }
 ```
 
