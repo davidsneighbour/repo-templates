@@ -7,9 +7,9 @@
     "url": "https://github.com/davidsneighbour/templates/issues"
   },
   "dependencies": {
-    "@davidsneighbour/tools": "^3.4.6",
-    "mem": ">=9.0.1",
-    "yargs-parser": ">=21.0.0"
+    "@davidsneighbour/tools": "^4.0.1",
+    "mem": ">=9.0.2",
+    "yargs-parser": ">=21.0.1"
   },
   "eslintConfig": {
     "extends": "@davidsneighbour/eslint-config"
