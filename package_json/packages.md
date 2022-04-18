@@ -1,5 +1,5 @@
 ## textlint
 
 ```bash
-npm install @dnb-org/textlint-config
+npm install @davidsneighbour/textlint-config
 ```

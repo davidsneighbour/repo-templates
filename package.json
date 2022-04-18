@@ -1,24 +1,23 @@
 {
-  "name": "@dnb-org/templates",
-  "description": "A collection of text blocks for use in DNB-Hugo. You probably won't have any use of this.",
+  "name": "@davidsneighbour/hugo-templates",
+  "description": "A collection of text blocks for use in David's Neighbour Hugo. You probably won't have any use of this.",
   "version": "1.0.0",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": {
-    "url": "https://github.com/dnb-org/templates/issues"
+    "url": "https://github.com/davidsneighbour/hugo-templates/issues"
   },
   "dependencies": {
-    "@dnb-org/tools": "^3.4.6",
     "mem": ">=9.0.1",
     "yargs-parser": ">=21.0.0"
   },
   "eslintConfig": {
-    "extends": "@dnb-org/eslint-config"
+    "extends": "@davidsneighbour/eslint-config"
   },
-  "homepage": "https://github.com/dnb-org/templates#readme",
+  "homepage": "https://github.com/davidsneighbour/hugo-templates",
   "license": "MIT",
   "remarkConfig": {
     "plugins": [
-      "@dnb-org/remark-preset-lint",
+      "@davidsneighbour/remark-preset-lint",
       [
         "remark-lint-write-good",
         false
@@ -27,11 +26,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dnb-org/templates.git"
+    "url": "git+https://github.com/davidsneighbour/hugo-templates.git"
   },
   "scripts": {
     "build": "run-p build:*",
     "build:cards": "./bin/build-auto-cards.sh",
     "build:readme": "./bin/build-docs.sh"
+  },
+  "devDependencies": {
+    "@davidsneighbour/tools": "^4.0.1"
   }
 }
