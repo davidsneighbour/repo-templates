@@ -26,11 +26,7 @@ const defaultStandardVersion = {
 };
 const localStandardVersion = {
   bumpFiles: [
-    ...defaultStandardVersion.bumpFiles,
-    {
-      filename: 'data/dnb/kollitsch/build.json',
-      type: 'json',
-    },
+    ...defaultStandardVersion.bumpFiles
   ],
   skip: {
     changelog: true

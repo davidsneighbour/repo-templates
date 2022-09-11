@@ -32,7 +32,7 @@ if test -f "$FILE"; then
 fi
 
 # add re-versioned files to recent edit
-git add data/dnb/head/
+git add data/dnb/
 git commit --amend --no-edit
 
 # push everything up
