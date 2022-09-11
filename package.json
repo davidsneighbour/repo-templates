@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/hugo-templates",
   "description": "A collection of templates for use in @davidsneighbour's hugo components. You probably won't have any use for this.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": {
     "url": "https://github.com/davidsneighbour/hugo-templates/issues"
