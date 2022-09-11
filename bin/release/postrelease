@@ -38,7 +38,7 @@ fi
 
 # add re-versioned files to recent edit
 git add data/dnb/
-git commit --amend --no-edit --quietq
+git commit --amend --no-edit --quiet
 
 # push everything up
 git push --follow-tags origin main --quiet
