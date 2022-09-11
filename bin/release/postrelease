@@ -1,7 +1,12 @@
 #!/bin/bash
 
+REQUIRED_TOOLS=(
+  git
+  sed
+  node
+)
+
 # check if all requirements are met
-REQUIRED_TOOLS=(git sed node)
 for TOOL in "${REQUIRED_TOOLS[@]}"; do
   if ! command -v "${TOOL}" >/dev/null; then
     echo "${TOOL} is required... "
@@ -33,11 +38,11 @@ fi
 
 # add re-versioned files to recent edit
 git add data/dnb/
-git commit --amend --no-edit
+git commit --amend --no-edit --quietq
 
 # push everything up
-git push --follow-tags origin main
-git push --tags
+git push --follow-tags origin main --quiet
+git push --tags --quiet
 
 # create a release on GitHub
 BODY="Just a new release"
@@ -51,10 +56,12 @@ curl \
 	-d "{\"tag_name\":\"v${VERSION}\",\"name\":\"v${VERSION}\",\"body\":\"${BODY}\",\"draft\":false,\"prerelease\":false,\"generate_release_notes\":true}"
 xdg-open "${URL}" &>>/dev/null
 
+# @TODO
 # get the release info into the static directory
 # AUTH="-u ${GITHUB_USERNAME}:${GITHUB_SECRET}"
 # URL="https://api.github.com/repos/${GITHUB_REPOSLUG}/releases/latest"
 # 	curl "${URL}" "${AUTH}" --output ./static/assets/build.json
 # git add static/assets/build.json
-# git commit -m git commit -m
-# git push origin --tags --quiet
+# git commit --amend --no-edit
+# git push --follow-tags origin main --quiet
+# git push --tags --quiet

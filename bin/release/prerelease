@@ -1,7 +1,11 @@
 #!/bin/bash
 
+REQUIRED_TOOLS=(
+  git
+  hugo
+)
+
 # check if all requirements are met
-REQUIRED_TOOLS=(git hugo)
 for TOOL in "${REQUIRED_TOOLS[@]}"; do
   if ! command -v "${TOOL}" >/dev/null; then
     echo "${TOOL} is required... "
@@ -14,7 +18,10 @@ hugo mod get -u ./...
 hugo mod tidy
 
 # add updates to release commit
-git add go.mod
+FILE=go.mod
+if test -f "$FILE"; then
+  git add $FILE
+fi
 FILE=go.sum
 if test -f "$FILE"; then
   git add $FILE
