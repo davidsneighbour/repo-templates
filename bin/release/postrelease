@@ -41,16 +41,14 @@ git push --tags
 
 # create a release on GitHub
 BODY="Just a new release"
-
-URL="$GITHUB_REPO""releases/edit/v""$VERSION"
+GITHUB_REPO=https://github.com/${GITHUB_REPOSLUG}
+URL="$GITHUB_REPO"/"releases/edit/v""$VERSION"
 curl \
 	-X POST \
 	-H "Accept: application/vnd.github+json" \
 	-H "Authorization: token ${GITHUB_SECRET}" \
 	https://api.github.com/repos/"${GITHUB_REPOSLUG}"/releases \
 	-d "{\"tag_name\":\"v${VERSION}\",\"name\":\"v${VERSION}\",\"body\":\"${BODY}\",\"draft\":false,\"prerelease\":false,\"generate_release_notes\":true}"
-
-# open page to edit
 xdg-open "${URL}" &>>/dev/null
 
 # get the release info into the static directory
