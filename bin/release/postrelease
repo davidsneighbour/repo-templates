@@ -45,7 +45,6 @@ git push --follow-tags origin main --quiet
 git push --tags --quiet
 
 # create a release on GitHub
-BODY="Just a new release"
 GITHUB_REPO=https://github.com/${GITHUB_REPOSLUG}
 URL="$GITHUB_REPO"/"releases/edit/v""$VERSION"
 curl \
@@ -53,7 +52,7 @@ curl \
 	-H "Accept: application/vnd.github+json" \
 	-H "Authorization: token ${GITHUB_SECRET}" \
 	https://api.github.com/repos/"${GITHUB_REPOSLUG}"/releases \
-	-d "{\"tag_name\":\"v${VERSION}\",\"name\":\"v${VERSION}\",\"body\":\"${BODY}\",\"draft\":false,\"prerelease\":false,\"generate_release_notes\":true}"
+	-d "{\"tag_name\":\"v${VERSION}\",\"name\":\"v${VERSION}\",\"draft\":false,\"prerelease\":false,\"generate_release_notes\":true}"
 xdg-open "${URL}" &>>/dev/null
 
 # @TODO
