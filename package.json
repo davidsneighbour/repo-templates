@@ -1,15 +1,13 @@
 {
-  "name": "@davidsneighbour/templates",
-  "description": "A collection of text blocks for use in DNB-Hugo. You probably won't have any use of this.",
+  "name": "@davidsneighbour/hugo-templates",
+  "description": "A collection of templates for use in @davidsneighbour's hugo components. You probably won't have any use for this.",
   "version": "1.0.0",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": {
-    "url": "https://github.com/davidsneighbour/templates/issues"
+    "url": "https://github.com/davidsneighbour/hugo-templates/issues"
   },
   "dependencies": {
-    "@davidsneighbour/tools": "^4.0.1",
-    "mem": ">=9.0.2",
-    "yargs-parser": ">=21.0.1"
+    "@davidsneighbour/config": "^1.0.24"
   },
   "eslintConfig": {
     "extends": "@davidsneighbour/eslint-config"
@@ -30,9 +28,10 @@
     "url": "git+https://github.com/davidsneighbour/hugo-templates.git"
   },
   "scripts": {
-    "build": "run-p build:*",
     "build:cards": "./bin/build-auto-cards.sh",
-    "build:readme": "./bin/build-docs.sh"
+    "release": "standard-version --release-as patch --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release/postrelease",
+    "release:major": "standard-version --release-as major --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release/postrelease",
+    "release:minor": "standard-version --release-as minor --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release/postrelease"
   },
   "devDependencies": {
     "@davidsneighbour/tools": "^4.0.1"
