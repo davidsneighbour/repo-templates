@@ -7,7 +7,7 @@
     "url": "https://github.com/davidsneighbour/hugo-templates/issues"
   },
   "dependencies": {
-    "@davidsneighbour/config": "^1.0.24"
+    "@davidsneighbour/config": "^1.0.42"
   },
   "eslintConfig": {
     "extends": "@davidsneighbour/eslint-config"
