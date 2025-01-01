@@ -34,6 +34,6 @@
     "release:minor": "standard-version --release-as minor --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release/postrelease"
   },
   "devDependencies": {
-    "@davidsneighbour/tools": "^2024.4.10"
+    "@davidsneighbour/tools": "^2024.4.12"
   }
 }
